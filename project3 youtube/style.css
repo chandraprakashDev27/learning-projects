@@ -1,0 +1,102 @@
+#navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 36px;
+}
+
+#logo img {
+    height: 50px;
+    margin: 3px 6px;
+    border-radius: 50px;
+}
+
+#title {
+    color: Black;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#search {
+    position: relative;
+    left: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#search input {
+    display: flex;
+    border: none;
+    padding: 15px 10px;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+#search button {
+    background-color: #f8f8f8;
+    border: none;
+    padding: 20px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#src {
+    border: 2px solid black;
+    height: 500px;
+    width: 1100px;
+}
+
+.container {
+    /* border: 2px solid black; */
+    display: flex;
+    margin: 20px 10%;
+    justify-content: space-around;
+}
+
+.box {
+    width: 45%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.muted-text {
+    color: #6c757d;
+    A soft gray color
+    font-size: 0.95em;
+    Slightly smaller (optional)
+} */

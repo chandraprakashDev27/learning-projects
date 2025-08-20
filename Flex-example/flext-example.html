@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Flex Box Example</title>
+</head>
+
+<body>
+    <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: space-between;">
+        <div style="border: 1px solid red;">
+            1.display: flex;
+            <br> flex-wrap: wrap;
+            <br> flex-direction: row;
+            <br> main axis = X-axis
+            <br> coss axis = Y-axis
+            <br> task: arrange in main axis
+            <br>justify-content: center;
+            <div class="container justify-row">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <br />=========================================<br />
+            2.display: flex;
+            <br> flex-wrap: wrap;
+            <br> flex-direction: row;
+            <br> main axis = X-axis
+            <br> coss axis = Y-axis
+            <br> task: arrange in cross axis
+            <br>align-items: center;
+            <div class="container align-row">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <br />=========================================<br />
+        </div>
+        <div style="border: 1px solid red;">
+            3.display: flex;
+            <br> flex-wrap: wrap;
+            <br> flex-direction: column;
+            <br> main axis = Y-axis
+            <br> coss axis = X-axis
+            <br> task: arrange in cross axis
+            <br>align-items: center;
+            <div class="container align-column">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <br />=========================================<br />
+            4.display: flex;
+            <br> flex-wrap: wrap;
+            <br> flex-direction: column;
+            <br> main axis = Y-axis
+            <br> coss axis = X-axis
+            <br> task: arrange in cross axis
+            <br>align-items: center;
+            <div class="container move-boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+    </div>
+    <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top: 20px;">
+        <div class="container random-moves">
+            <div class="box-test top-box">top</div>
+            <div class="box-test bottom-box">bottom</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

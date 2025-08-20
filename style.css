@@ -1,0 +1,182 @@
+/*  * {
+    padding: 0;
+    margin: 0;
+    color: red;
+}
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+}
+button {
+    background-color: #f08804;
+}
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+a {
+    margin-right: 200px;
+    text-decoration: none; 
+} </div>
+ #h2 {
+    font-weight: bold;
+ }
+ #h3 {
+    font-weight: bolder;
+ }
+ #h4 {
+    font-weight: lighter;
+ }
+ p {
+    text-transform: none;
+
+ }
+ h6 {
+    text-align: center;
+    text-transform: capitalize;
+ }
+ * {
+    font-family: times new roman;
+ }
+ #outer {
+    font-size: 25px;
+
+ }
+ #inner {
+    font-size: 10px;
+ } */
+  /* h6 {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+  }
+  h1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-width: 3px;
+    border-color: black;
+    border-style: dotted;
+    text-align: center;
+  }
+  h2 { 
+    background-color: yellow;
+    border-radius: px;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    padding: 25px 25px 10px 15px;
+    margin: 50px;
+   
+
+  }
+#circle {
+    height: 60px;
+    width: 60px;
+    background-color: #0f1111;
+    border-radius: 50%;
+} 
+div{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black; 
+    display: inline-block;
+}
+#box1{
+   background-image: url(car_photo.jpg);
+   background-size: auto;
+   background-repeat: no-repeat;
+} *
+ div{
+   height: 100px;
+   width: 100px;
+   background-image: url(car_photo.jpg);
+   background-size: cover;
+   color: white;
+   position: fixed;
+   right: 0px;
+   top: 10px;
+ }*/
+ /*body{
+   text-align: center;
+ }
+div{
+   height: 50px;
+   width: 150px;
+   display: inline-block;
+   border: 2px solid black;
+
+}
+#container{
+   height: 600px;
+   width: 600px;
+   display: flex;
+   flex-direction: row ;
+  justify-content: center;
+   flex-wrap: nowrap;
+   align-items: center;
+   align-content: center;
+}
+#box1{
+   background-color: red;
+}
+#box2{
+   background-color: pink;
+   height: 100px;
+}
+#box3{
+   background-color: orange;
+}
+#box4{
+   background-color: brown;
+}
+#box5{
+   background-color: green;
+} */
+ /*div{
+   height: 50px;
+   width: 50px;
+   background-color: blueviolet;
+ }
+ @media (width:1000px ){
+   div{
+      background-color: red;
+   }
+ } 
+@media (min-width:500px){
+   div{
+      background-color: turquoise;
+   }
+ }@media (max-width:500px){
+   div{
+      background-color: turquoise;
+   }
+ }
+ @media (min-width:300px ) and  (max-width:500px)
+ {
+   div{
+      background-color: lime;
+   }
+ }*/
+ div{
+   height: 100px;
+   width: 100px;
+   position: absolute;
+
+   background-color: cadetblue;
+   border: 2px dotted;
+   transition: all 5s ease-in;
+ 
+ }
+ div:hover{
+   margin: top 100px;
+
+   /*background-color: pink;
+   color: white ;*/
+   transform: translate(200px,200px);
+   
+ }
+ div:active{
+
+ }
